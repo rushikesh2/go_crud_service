@@ -1,6 +1,6 @@
 # go_crud_service
 
-Assignment
+# Assignment
 You are tasked with creating a Go application that manages a simple employee database or in-memory store. Additionally, you need to implement a RESTful API with pagination for listing employee records.
 
 1. Employee Struct:
@@ -37,13 +37,17 @@ You are tasked with creating a Go application that manages a simple employee dat
 ## APIs:
 
 1. POST api to create employee.
-   ![POST](https://user-images.githubusercontent.com/55944826/151755172-4d1af9a8-33ad-4824-a852-b3d9bcd5a98a.png)
+![POST request](https://github.com/rushikesh2/go_crud_service/assets/49398834/660d53f3-c8da-4a98-9a01-50e7432990f1)
 
-2. GET api to all users.
-   ![GET](https://user-images.githubusercontent.com/55944826/151755179-f39ce830-e0a9-4041-ad9b-a70dc3ba6add.png)
+2. GET api to all employees.
+![GET All employee](https://github.com/rushikesh2/go_crud_service/assets/49398834/5be3716e-7061-4764-bc86-61c1dfd07f7c)
 
 3. GET by id
+![GET a employee](https://github.com/rushikesh2/go_crud_service/assets/49398834/7ff64331-43fa-45c4-acee-09b3d8153687)
 
 4. PUT api to create or update the employee
+![PUT Request](https://github.com/rushikesh2/go_crud_service/assets/49398834/2efedd11-2644-4a6b-99d1-8511ef970549)
 
-5. DELETE api to delete the employee
+6. DELETE api to delete the employee
+![Delete Request](https://github.com/rushikesh2/go_crud_service/assets/49398834/6712381a-2348-43b5-9fd6-e72b36b1bb6f)
+
