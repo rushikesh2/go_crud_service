@@ -75,6 +75,5 @@ func (r *EmployeeRepository) ListEmployees(offset, limit int) []models.Employee 
 	for _, employee := range r.employees {
 		employees = append(employees, employee)
 	}
-
 	return utils.PaginateEmployees(employees, offset, limit)
 }
